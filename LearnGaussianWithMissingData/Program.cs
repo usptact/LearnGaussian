@@ -31,7 +31,7 @@ namespace LearnGaussianWithMissingData
             //x[r] = Variable.GaussianFromMeanAndPrecision(mean, precision).ForEach(r);
             x.ObservedValue = data;
 
-            // create missing data indicator RV array
+            // create missing data indicator RV array (observed)
             VariableArray<bool> missing = Variable.Observed(isMissing, r);
 
             using (Variable.ForEach(r))
