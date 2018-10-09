@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MicrosoftResearch.Infer;
-using MicrosoftResearch.Infer.Models;
-using MicrosoftResearch.Infer.Maths;
+using Microsoft.ML.Probabilistic.Models;
+using Microsoft.ML.Probabilistic.Math;
 
 namespace LearnGaussianWithMissingData
 {
